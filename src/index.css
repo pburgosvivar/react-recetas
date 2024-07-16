@@ -1,0 +1,40 @@
+/* App.css */
+body {
+  background-color: #fffacd; /* Color amarillo pastel */
+}
+
+.App-header {
+  background-color: limegreen;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.App-footer {
+  background-color: limegreen;
+  padding: 10px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra las columnas */
+  margin: 20px;
+}
+
+.recipe {
+  flex: 1 1 calc(50% - 40px); /* Dos columnas con espacio entre ellas */
+  box-sizing: border-box;
+  margin: 20px;
+}
+
+.recipe img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.recipe h2 {
+  margin-top: 0;
+}
